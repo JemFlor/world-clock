@@ -1,0 +1,82 @@
+body {
+  background: url(https://static1.squarespace.com/static/5e949a92e17d55230cd1d44f/t/6334693bc2d4cd3c1aef3de8/1664379198402/TopographMac.png);
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: #97b5c7;
+  margin-bottom: 10px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 38px;
+}
+.city {
+  color: #013b00;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.container {
+  background: #bd4e01;
+  border-radius: 60%;
+  width: 220px;
+  height: 220px;
+  padding: 0 auto;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 90px;
+  margin-top: 20px;
+  font-family: "Geo", sans-serif;
+  margin-bottom: -10px;
+  color: #e78001;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: "Geo", sans-serif;
+  margin-bottom: 5px;
+  color: #bd4e01;
+  text-align: center;
+}
+
+.places {
+  text-align: center;
+  border-color: #97b5c7;
+  border-radius: 30px;
+  color: #f38500;
+  background: #050a12;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.select {
+  text-align: center;
+}
+footer {
+  color: orange;
+  text-align: center;
+  margin-top: 120px;
+  font-family: "Orbitron", sans-serif;
+}
+.link {
+  color: #97b5c7;
+}
+.link:hover {
+  color: #bd4e01;
+}
+
+.time {
+  font-size: 55px;
+  margin-top: -145px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600px;
+  margin-bottom: 50px;
+  color: #97b5c7;
+  text-align: center;
+}
+.time small {
+  font-size: 25px;
+}

@@ -5,26 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geo&family=Major+Mono+Display&family=Orbitron:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9e0c31e610.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>World Clock</h1>
-    <select>
-      <option value="select">Select a city...</option>
-      <option value="rome">Rome</option>
-      <option value="london">London</option>
-      <option value="madrid">Madrid</option>
-      <option value="reykjavik">Reykjavik</option>
-    </select>
-    <div class="city">
-      <h2>London</h2>
-      <div class="date">February 23rd 2023</div>
-      <div class="time">12:48PM</div>
+    <h1>WORLD CLOCK</h1>
+    <div class="select">
+      <select class="places">
+        <option value="select">Select a city...</option>
+        <option value="rome">Rome</option>
+        <option value="london">London</option>
+        <option value="madrid">Madrid</option>
+        <option value="reykjavik">Reykjavik</option>
+      </select>
     </div>
+    <h2>London</h2>
+    <h3>23rd February 2023</h3>
+    <div class="container" style="text-align: center"></div>
+    <div class="time">12:48<small>pm</small></div>
+
     <footer>
       Visit my
-      <a href="https://github.com/JemFlor/world-clock" target="_blank"
-        >Github</a
-      >
+      <a
+        class="link"
+        href="https://github.com/JemFlor/world-clock"
+        target="_blank"
+        style="text-decoration: none"
+        >Github <i class="fa-brands fa-github"></i
+      ></a>
     </footer>
   </body>
 </html>
