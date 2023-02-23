@@ -5,9 +5,10 @@ body {
 h1 {
   text-align: center;
   color: #97b5c7;
+  margin-top: -10px;
   margin-bottom: 10px;
   font-family: "Orbitron", sans-serif;
-  font-size: 38px;
+  font-size: 35px;
 }
 .city {
   color: #013b00;
@@ -29,6 +30,7 @@ h2 {
   font-size: 90px;
   margin-top: 20px;
   font-family: "Geo", sans-serif;
+  font-weight: 300;
   margin-bottom: -10px;
   color: #e78001;
   text-align: center;
