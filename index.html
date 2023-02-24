@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,10 +31,12 @@
         <option value="reykjavik">Reykjavik</option>
       </select>
     </div>
-    <h2>London</h2>
-    <h3>23rd February 2023</h3>
-    <div class="container" style="text-align: center"></div>
-    <div class="time">12:48<small>pm</small></div>
+    <div id="overall">
+      <h2 id="selected">London</h2>
+      <h3 class="date">23rd February 2023</h3>
+      <div class="container" style="text-align: center"></div>
+      <div class="time">12:48<small>pm</small></div>
+    </div>
 
     <footer>
       Visit my
@@ -44,5 +48,6 @@
         >Github <i class="fa-brands fa-github"></i
       ></a>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
