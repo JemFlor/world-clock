@@ -83,3 +83,23 @@ footer {
 .time small {
   font-size: 25px;
 }
+.linkL {
+  color: #1c3c61;
+}
+.linkL:hover {
+  color: #bd4e01;
+}
+.fa-linkedin {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.fa-github {
+  font-size: 25px;
+}
+p {
+  font-size: 16px;
+  font-family: "Geo", sans-serif;
+  text-align: center;
+  color: #bd4e01;
+}
