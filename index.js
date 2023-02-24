@@ -1,13 +1,13 @@
 function updateTime() {
-  let selectedElement = document.querySelector("#location");
-  if (selectedElement) {
-    let selectedDateElement = selectedElement.querySelector("#date");
-    let selectedTimeElement = selectedElement.querySelector("#time");
-    let selectedTime = moment().tz("Europe/London");
+  let locationElement = document.querySelector("#location");
+  if (locationElement) {
+    let locationDateElement = locationElement.querySelector("#date");
+    let locationTimeElement = locationElement.querySelector("#time");
+    let locationTime = moment().tz("Europe/London");
 
-    selectedDateElement.innerHTML = selectedTime.format("MMMM Do YYYY");
-    selectedTimeElement.innerHTML = selectedTime.format(
-      "h:mm:ss [<small]A[</small>]"
+    locationDateElement.innerHTML = locationTime.format("MMMM	Do YYYY");
+    locationTimeElement.innerHTML = locationTime.format(
+      "h:mm:ss [<small>]A[</small>]"
     );
   }
 }
