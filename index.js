@@ -1,5 +1,5 @@
 function updateTime() {
-  let selectedElement = document.querySelector("#selected");
+  let selectedElement = document.querySelector("#location");
   if (selectedElement) {
     let selectedDateElement = selectedElement.querySelector("#date");
     let selectedTimeElement = selectedElement.querySelector("#time");
