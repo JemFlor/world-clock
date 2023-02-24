@@ -1,5 +1,5 @@
 function updateTime() {
-  let locationElement = document.querySelector("#location");
+  let locationElement = document.querySelector("#overall");
   if (locationElement) {
     let locationDateElement = locationElement.querySelector("#date");
     let locationTimeElement = locationElement.querySelector("#time");
