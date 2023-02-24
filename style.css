@@ -46,14 +46,15 @@ h3 {
 
 .places {
   text-align: center;
-  border-color: #2c557d;
+  border-color: lightgray;
   border-radius: 30px;
-  border-width: 1px;
+  border-width: -2px;
   color: #bd4e01;
   background: #9faa9d;
   font-family: "Orbitron", sans-serif;
   margin-top: 30px;
   font-size: 20px;
+  outline: none;
 }
 .select {
   text-align: center;
