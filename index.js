@@ -11,6 +11,8 @@ function updateTime() {
     );
   }
 }
+updateTime();
+setInterval(updateTime, 1000);
 
 function updateCity(event) {
   let timeZone = event.target.value;
@@ -18,6 +20,7 @@ function updateCity(event) {
     timeZone = moment.tz.guess();
   }
   let cityName = timeZone.replace("_", " ").split("/")[1];
+
   let cityTime = moment().tz(timeZone);
   let citiesElement = document.querySelector("#overall");
   citiesElement.innerHTML = `
@@ -30,9 +33,6 @@ function updateCity(event) {
   )}</small></div>
     `;
 }
-
-updateTime();
-setInterval(updateTime, 1000);
 
 let citiesSelectElement = document.querySelector("#city");
 
