@@ -19,8 +19,8 @@ h1 {
   background: #bd4e01;
   border-radius: 60%;
 
-  width: 220px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
   padding: 0 auto;
   margin: 0 auto;
   align-items: center;
@@ -72,8 +72,8 @@ footer {
 }
 
 .time {
-  font-size: 55px;
-  margin-top: -145px;
+  font-size: 33px;
+  margin-top: -140px;
   font-family: "Orbitron", sans-serif;
   font-weight: 600px;
   margin-bottom: 50px;
